@@ -9,4 +9,4 @@ while True:
     ctypes.windll.kernel32.SetThreadExecutionState(
             ES_CONTINUOUS | ES_SYSTEM_REQUIRED | ES_DISPLAY_REQUIRED
             )
-    tiem.sleep(30)
+    time.sleep(30)
